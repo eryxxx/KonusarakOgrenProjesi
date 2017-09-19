@@ -74,7 +74,7 @@ public class wordActivity extends AppCompatActivity   {
 
     private static String yandex_translate(String yandex_lang,String yandex_text) throws IOException, ParseException {
 
-        String yandex_key = "trnsl.1.1.20170125T115540Z.4f982b8f890a7c24.75feb0af0d44e2aa8a7ec0bd6bf7542f7b389055";
+        String yandex_key = "yandex_key";
 
 
         String yandex_url = "https://translate.yandex.net/api/v1.5/tr.json/translate?key="+yandex_key+"&lang="+yandex_lang+"&text="+yandex_text;
