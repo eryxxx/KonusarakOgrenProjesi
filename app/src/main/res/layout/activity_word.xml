@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.konusarakogrenprojesi.wordActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="MostDuplicated5words------>" />
+
+    <TextView
+        android:id="@+id/firstWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:text="firstWord----"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/secondWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/firstWord"
+        android:text="secondWord----"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/thirdWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/secondWord"
+        android:text="thirdWord----"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/fourthWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/thirdWord"
+        android:text="fourthWord----"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/fifthWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/fourthWord"
+        android:text="fifthWord----"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TranslationOf5Words"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/firstTranslatedWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:text="firstTranslatedWord"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/secondTranslatedWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstTranslatedWord"
+        android:text="secondTranslatedWord"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/thirdTranslatedWord" />
+
+    <TextView
+        android:id="@+id/thirdTranslatedWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondTranslatedWord"
+        android:text="thirdTranslatedWord"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/fourthTranslatedWord" />
+
+    <TextView
+        android:id="@+id/fourthTranslatedWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thirdTranslatedWord"
+        android:text="fourthTranslatedWord"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/fifthTranslatedWord" />
+
+    <TextView
+        android:id="@+id/fifthTranslatedWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fourthTranslatedWord"
+        android:text="fifthTranslatedWord"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/textView8" />
+
+</RelativeLayout>
